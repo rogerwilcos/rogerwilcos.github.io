@@ -5,6 +5,8 @@ target/wasm32-unknown-emscripten/debug/*
 target/wasm32-unknown-emscripten/release/.fingerprint/*
 target/wasm32-unknown-emscripten/release/build/*
 target/wasm32-unknown-emscripten/release/deps/*
+!target/wasm32-unknown-emscripten/release/deps/rogercv.js
+!target/wasm32-unknown-emscripten/release/deps/rogercv.wasm
 target/wasm32-unknown-emscripten/release/examples/*
 target/wasm32-unknown-emscripten/release/incremental/*
 target/wasm32-unknown-emscripten/release/native/*

@@ -38,19 +38,7 @@ impl<CTX> Component<CTX> for Model {
 impl<CTX> Renderable<CTX, Model> for Model where CTX: 'static, {
     fn view(&self) -> Html<CTX, Self> {
         html! {
-            <div>
-                <div>
-                    <textarea rows=5,
-                        value=&self.value,
-                        oninput=|e| Msg::GotInput(e.value),
-                        placeholder="placeholder",>
-                    </textarea>
-                     <button onclick=|_| Msg::Clicked,>{ "change value" }</button>
-                </div>
-                <div>
-                    {&self.value}
-                </div>
-            </div>
+            <h2> { "Hello world!" } </h2>
         }
     }
 }
