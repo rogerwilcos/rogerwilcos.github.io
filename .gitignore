@@ -7,6 +7,8 @@ target/wasm32-unknown-emscripten/release/build/*
 target/wasm32-unknown-emscripten/release/deps/*
 !target/wasm32-unknown-emscripten/release/deps/rogercv.js
 !target/wasm32-unknown-emscripten/release/deps/rogercv.wasm
+!target/wasm32-unknown-unknown/release/deps/rogercv.wasm
+!target/wasm32-unknown-unknown/release/rogercv.wasm
 target/wasm32-unknown-emscripten/release/examples/*
 target/wasm32-unknown-emscripten/release/incremental/*
 target/wasm32-unknown-emscripten/release/native/*
@@ -15,3 +17,5 @@ target/wasm32-unknown-emscripten/release/librogercv.d
 target/wasm32-unknown-emscripten/release/librogercv.rlib
 target/wasm32-unknown-emscripten/release/rogercv.d
 target/.rustc_info.json
+target/asmjs-unknown-emscripten/*
+target/wasm32-unknown-unknown/*
