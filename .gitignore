@@ -12,4 +12,4 @@ target/wasm32-unknown-emscripten/release/.cargo-lock
 target/wasm32-unknown-emscripten/release/librogercv.d
 target/wasm32-unknown-emscripten/release/librogercv.rlib
 target/wasm32-unknown-emscripten/release/rogercv.d
-traget/.rustc_info.json
+target/.rustc_info.json
