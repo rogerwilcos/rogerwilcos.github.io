@@ -35,10 +35,7 @@ impl<CTX> Component<CTX> for Model {
     }
 }
 
-impl<CTX> Renderable<CTX, Model> for Model
-where
-    CTX: 'static,
-{
+impl<CTX> Renderable<CTX, Model> for Model where CTX: 'static, {
     fn view(&self) -> Html<CTX, Self> {
         html! {
             <div>
