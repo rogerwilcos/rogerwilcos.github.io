@@ -1,1 +1,0 @@
-{"rustc":0,"features":"","target":0,"profile":0,"path":0,"deps":[],"local":[{"MtimeBased":[[1527970350,218088785],"/home/ilyadruzhinin/Documents/rogerwilcos.github.io/roger-site/target/wasm32-unknown-unknown/release/build/stdweb-1329d057e1fbc810/output"]},{"EnvBased":["COMPILING_UNDER_CARGO_WEB",null]}],"rustflags":[],"edition":"Edition2015"}

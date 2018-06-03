@@ -1,3 +1,15 @@
 target/rls/*
 target/debug/*
-traget/release/*
+target/release/*
+target/wasm32-unknown-emscripten/debug/*
+target/wasm32-unknown-emscripten/release/.fingerprint/*
+target/wasm32-unknown-emscripten/release/build/*
+target/wasm32-unknown-emscripten/release/deps/*
+target/wasm32-unknown-emscripten/release/examples/*
+target/wasm32-unknown-emscripten/release/incremental/*
+target/wasm32-unknown-emscripten/release/native/*
+target/wasm32-unknown-emscripten/release/.cargo-lock
+target/wasm32-unknown-emscripten/release/librogercv.d
+target/wasm32-unknown-emscripten/release/librogercv.rlib
+target/wasm32-unknown-emscripten/release/rogercv.d
+traget/.rustc_info.json
