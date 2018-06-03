@@ -1,0 +1,1 @@
+{"rustc":0,"features":"","target":0,"profile":0,"path":0,"deps":[],"local":[{"MtimeBased":[[1528045523,756181200],"build/stdweb-e98a51b23b346273/output"]},{"EnvBased":["COMPILING_UNDER_CARGO_WEB",null]}],"rustflags":[],"edition":"Edition2015"}
